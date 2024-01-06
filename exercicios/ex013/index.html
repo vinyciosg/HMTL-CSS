@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+       * {
+          margin: 0px;
+          padding: 0px;
+       }
+
+       .tudo {
+        width: 100vw;
+        height: 100vh;
+        animation-name: tudo;
+         animation-duration: 2s;
+         animation-iteration-count: infinite;
+       }
+
+       @keyframes tudo {
+        5% {background-color:#405de6;}
+        10% {background-color: #5851db;}
+       }
+
+       @keyframes caix1  {
+        5% {background-color:#405de6;}
+        10% {background-color: #5851db;}
+       }
+
+       background: linear-gradient( to right, #405de6, #5851db, #833ab4,  #c13584, #e1306c, #fd1d1d);
+
+
+       
+       #caixa1 {
+         background-color: rgba(128, 128, 128, 0.742);
+         position: absolute;
+         left: 50%;
+         top: 40%;
+         
+         transform: translate(-50%, -50%);
+
+         width: 400px;
+         height: 200px;
+         border: 2px solid black;
+
+
+         animation-name: caixa1;
+         animation-duration: 2s;
+         animation-iteration-count: infinite;
+    
+       }
+
+       .caixa2 {
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: center;
+        margin-top: 35px;
+        font-size: 1.2em;
+       }
+
+      .cadastro1  {
+        padding: 10px;
+        
+      }
+
+      .cadastro2 {
+        margin-top: 15px;
+      }
+
+      .enviar, .limpar {
+        width: 60px;
+      }
+        
+    </style>
+</head>
+<body>
+  
+   
+    <div class="tudo">
+       
+        <article id="caixa1">
+            <div class="caixa2">
+                <form action="#">
+                    <p class="cadastro1">
+                        <label for="inome">Nome:</label>
+                        <input type="text" name="inome" id="inome" required placeholder="Seu nome" >
+        
+                    </p>
+                    <p class="cadastro1">
+                        <label for="isenha">Senha:</label>
+                        <input type="password" name="isenha" id="isenha" required placeholder="Sua seneha">
+                    </p>
+                    <p class="cadastro2">
+                        <input class="enviar" type="submit" value="Enviar" >
+                         <input class="limpar" type="reset" value="Limpar">
+                    </p>
+                </form>
+            </div>
+        </article>
+    </div>
+</body>
+</html>
