@@ -1,8 +1,121 @@
 @charset "UTF-8";
 
+@import url('https://fonts.googleapis.com/css2?family=Italianno&family=Kalnia&family=Nunito:ital,wght@1,500&family=Roboto:wght@300&display=swap');
 
-body {
-    background-image: url(imagens/amarela.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
 }
+
+body, html{
+    height: 100vh;
+    width: 100vw;
+    background:  linear-gradient( 136deg, rgb(0,0,70) 0%, rgb(28,181,224) 100%);
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+    
+}
+
+.login {
+   
+    display: flex;
+    margin: 80px 0px 80px;
+    height: 584px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+.imagen {
+    display: flex;
+    background: url(imagens/form-v6.jpg);
+    background-repeat: no-repeat;
+    height: 584px;
+    width: 484px;
+    border-radius: inherit
+}
+
+#formulario {
+    background-color: white;
+    width: 490px;
+    height: 584px;
+    padding: 30px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+   
+}
+
+#formulario h1 {
+    font-family: 'Nunito', sans-serif;
+    text-align: center;
+    font-size: 37px;
+    margin: 29px 0px 15px;
+}
+
+.campo{
+    width: 100%;
+    position: relative;
+    padding: 15px;
+ }
+
+.campo label {
+    position: absolute;
+    cursor: text;
+}
+
+.campo .input {
+    font-family: 'Nunito', sans-serif;
+    font-size: 17px;
+    line-height: 45px;
+    width: 100%;
+    border: 0;
+    border-bottom: 2px solid rgba(146, 108, 108, 0.3) ;
+    outline: none;
+}
+
+.campo .input:hover {
+    border-bottom: 2px solid orangered;
+    outline: none;
+    transition: 0.8s;
+}
+
+
+
+
+ .register {
+  text-align: center;
+  margin-top: 0px;
+  padding: 20px;
+}
+
+.register input {
+    font-family: 'Nunito', sans-serif;
+    background-color: #FE892A;
+    color: white;
+    font-size: 18px;
+    padding: 15px;
+    width: 160px;
+    cursor: pointer;
+    border: 0;
+    border-radius: 10px;
+}
+
+.register input:hover {
+    background-color: #E48941;
+}
+
+
+ 
+ 
+
+
+
+
+
