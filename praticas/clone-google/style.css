@@ -162,3 +162,47 @@ footer .rodape2 a:hover {
     text-decoration: underline;
 }
 
+
+/* Typical Device Breakpoints 
+----------------------------
+Pequenas telas: 320px a 480px
+Celular: vao de  481px até 768px
+Tablet: 769px até 1024px
+Dasktop: 1025px até 1200px
+Grandes telas: acima de 1201px
+
+*/
+
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
+
+    .container2 img {
+        width: 380px;
+    }
+
+   .conteudo2 input {
+    width: 420px;
+    position: relative;
+   }
+
+   .pesquisa span {
+    position: absolute;
+    left: 45px;
+   }
+
+   .pesquisa img {
+    position: absolute;
+    width: 22px;
+    right: 40px;
+   }
+
+   footer .rodape-links1 a {
+    padding: 2px;
+    line-height: 25px;
+   }
+
+   footer .rodape-links2 a {
+    line-height: 25px;
+   }
+}
+
