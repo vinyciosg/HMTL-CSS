@@ -42,16 +42,19 @@
     .pesquisa1 img {
         position: absolute;
         left: 780px;
+        cursor:pointer;
     }
 
     .pesquisa1 .mic {
         height: 25px;
         margin: 35px;
+        cursor: pointer;
     }
 
     .pesquisa1 span {
         position: absolute;
         left: 848px;
+        cursor: pointer;
     }
 
     .simbolos2 {
@@ -66,7 +69,7 @@
     .simbolos2 img {
         margin-left: 20px;
         width: 50px;
-        
+        cursor: pointer;
     }
 
     .simbolos2 .menu {
