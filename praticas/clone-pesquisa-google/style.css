@@ -1,0 +1,178 @@
+@charset "UTF-8";
+
+    * {
+        margin: 0;
+        padding: 0;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .container1 {
+     height: 90px;
+     display: flex;
+     padding: 10px;
+    }
+
+    .container1 .img1 {
+        display: flex;
+        height: 55px;
+        padding: 20px;
+    }
+
+    .pesquisa1 {
+       width: 660px;
+       margin-left: 10px    ;
+       display: flex;
+       align-items: center;
+       outline: none;
+    }
+
+    .pesquisa1  input {
+        display: flex;
+        width: 100%;
+        padding: 13px;
+        padding-left: 20px;
+        padding-right: 120px;
+        border-radius: 20px;
+        border: 1px solid rgba(128, 128, 128, 0.501);
+        box-shadow: 0px 0px 3px gray;
+        outline: none;
+        position: relative;
+    }
+
+    .pesquisa1 img {
+        position: absolute;
+        left: 780px;
+    }
+
+    .pesquisa1 .mic {
+        height: 25px;
+        margin: 35px;
+    }
+
+    .pesquisa1 span {
+        position: absolute;
+        left: 848px;
+    }
+
+    .simbolos2 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        left: 490px;
+        width: 100px;
+        position: relative;
+    }
+
+    .simbolos2 img {
+        margin-left: 20px;
+        width: 50px;
+        
+    }
+
+    .simbolos2 .menu {
+        width: 20px;
+        border-radius: none;
+    }
+
+    .simbolos2 .foto {
+        border-radius: 50px;
+    }
+
+    .pesquisa2 {
+      height: 47px;
+      border-bottom: 1px solid rgba(128, 128, 128, 0.326);
+    }
+
+    .pesquisa2 .links {
+        padding: 15px;
+        margin-left: 200px;
+    }
+
+    .pesquisa2 a {
+        color: gray;
+        text-decoration: none;
+        padding: 12px;
+    }
+
+    .pesquisa2 a:hover {
+        color: rgb(0, 0, 255);
+        border-bottom:  3px solid blue;
+    }
+
+    .container2 {
+        height: 100%;
+        width: 800px;
+        margin-left: 200px;
+    }
+
+    .title-text1,
+    .title-text2,
+    .title-text3,
+    .title-text4 {
+        height: 140px;    
+    }
+
+    .container2 .p1 {
+        margin-top: 20px;
+        font-size: 15px;
+    }
+
+    .title-text {
+        margin-top: 20px;
+        padding: 10px;
+    }
+
+    .title-text1 h1 a,
+    .title-text2 h1 a,
+    .title-text3 h1 a,
+    .title-text4 h1 a {
+        font-size: 22px;
+        text-decoration: none;
+    }
+
+    .title-text1 h1 a:hover,
+    .title-text2 h1 a:hover,
+    .title-text3 h1 a:hover,
+    .title-text4 h1 a:hover {
+        text-decoration: underline;
+    }
+
+    .title-text1 h2,
+    .title-text2 h2,
+    .title-text3 h2,
+    .title-text4 h2 {
+        margin-top: 3px;
+        font-size: 17px;
+    }
+
+    .title-text1 h2 a,
+    .title-text2 h2 a,
+    .title-text3 h2 a,
+    .title-text4 h2 a {
+        color: green;
+        text-decoration: none;
+    }
+
+    .title-text1 h2 a:hover,
+    .title-text2 h2 a:hover,
+    .title-text3 h2 a:hover,
+    .title-text4 h2 a:hover {
+        text-decoration: underline;
+    } 
+
+    .title-text1 p,
+    .title-text2 p,
+    .title-text3 p,
+    .title-text4 p {
+        margin-top: 5px;
+        font-size: 14px;
+        line-height: 22px;
+    }
+
+    
+
+
+    
+
+
+
