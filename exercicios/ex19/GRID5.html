@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+    .container { 
+        background-color: rgb(151, 151, 151);
+        display: grid;
+        gap: 10px;    
+        grid-template-areas: 
+            "cabeçalho cabeçalho cabeçalho cabeçalho"
+            "menu conteudo conteudo conteudo"  
+            "anuncio conteudo conteudo conteudo"
+            "rodape rodape rodape rodape"
+        ;
+
+        }
+
+    .item {
+        background-color: rgb(64, 169, 210);
+        border-radius: 10px;
+        padding: 20px;
+        color: white;
+    }
+
+    .item1 {
+        grid-area: cabeçalho;
+    }
+
+    .item2 {
+        grid-area: menu;
+    }
+
+    .item3 {
+        grid-area: conteudo;
+    }
+
+    .item4 {
+        grid-area: rodape;
+    }
+
+    .item5 {
+        grid-area: anuncio;
+    }
+
+    @media  (max-width: 765px) {
+
+        .container {
+            grid-template-areas:
+            "cabeçalho cabeçalho cabeçalho menu"
+            "conteudo conteudo conteudo conteudo"
+            "rodape rodape rodape anuncio  "
+            ;
+        }
+        
+
+    }
+
+    </style>
+</head>
+<body>
+
+    <div class="container">
+
+        <div class="item item1">Cabeçalho</div>
+        <div class="item item2">menu</div>
+        <div class="item item3">conteudo Lorem ipsum dolor sit amet consectetur adipisicing elit. At cumque esse eum delectus aut tempore optio deleniti, magnam consectetur saepe maiores r</div>
+        <div class="item item4">rodape</div>
+        <div class="item item5">anuncio</div>
+
+    </div>
+</body>
+</html>
